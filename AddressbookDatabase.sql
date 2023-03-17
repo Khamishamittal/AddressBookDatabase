@@ -26,3 +26,6 @@ values('Ramesh' , 'Garg' ,' no8', 'mohli' ,'yana', 899789, 96098765443, 'Ramesh@
 ('khamisha' , 'mittal' ,' streetno1', 'Zirk' ,'Punjab', 16789, 98765443, 'khamish@gmail.com'),
 ('khamshd' , 'mtal' ,' streetno8', 'mohali' ,'hryana', 19789, 968765443, 'khamishaaaaa@gmail.com'),
 ('Ramesh' , 'Garg' ,' no8', 'mohli' ,'yana', 899789, 96098765443, 'Ramesh@gmail.com')
+
+--UC4_EditContactUsingName
+update AddressbookDetails set city ='Delhi' where firstName = 'Ramesh'
