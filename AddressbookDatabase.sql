@@ -33,3 +33,6 @@ update AddressbookDetails set city ='Delhi' where firstName = 'Ramesh'
 --UC5_DeleteFromAddressbookDetails using their name--
 
 delete from AddressbookDetails where firstName ='khamisha'
+
+--UC6_AbilityToRetrieve person using city or state
+select * from AddressbookDetails where city = 'Mohal' or  state = 'hryana'
