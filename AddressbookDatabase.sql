@@ -17,3 +17,12 @@ phoneNumber bigint,
 email varchar(200) not null,
 )
 select *from AddressbookDetails
+
+--UC3_InsertValues
+Insert into AddressbookDetails
+
+
+values('Ramesh' , 'Garg' ,' no8', 'mohli' ,'yana', 899789, 96098765443, 'Ramesh@gmail.com'),
+('khamisha' , 'mittal' ,' streetno1', 'Zirk' ,'Punjab', 16789, 98765443, 'khamish@gmail.com'),
+('khamshd' , 'mtal' ,' streetno8', 'mohali' ,'hryana', 19789, 968765443, 'khamishaaaaa@gmail.com'),
+('Ramesh' , 'Garg' ,' no8', 'mohli' ,'yana', 899789, 96098765443, 'Ramesh@gmail.com')
